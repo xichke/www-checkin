@@ -17,4 +17,5 @@ assets:
     - css/fontawesome.css
     - css/site.css
   js:
-    # - js/site.js
+    - js/jquery.js
+    - js/site.js
