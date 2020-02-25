@@ -1,0 +1,37 @@
+<head>
+    {{init @root}}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{page.title}} | {{site.data.meta.title}}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://xichke.com/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="https://xichke.com/ico.png"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="{{meta.title}}" />
+    <meta name="description" content="{{meta.description}}" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Facebook -->
+    <meta property="fb:app_id" content="{{meta.fb_app_id}}" />
+    {{#each meta.fb_admins}}
+    <meta property="fb:admins" content="{{this}}"/>
+    {{/each}}
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="{{meta.url}}" />
+    <meta property="og:site_name" content="{{meta.name}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{default title meta.title}}" />
+    <meta property="og:description" content="{{default description meta.description}}" />
+    {{#each meta.images}}
+    <meta property="og:image" content="{{this}}"/>
+    {{/each}}
+    <!-- Twitter -->
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:url" content="{{meta.url}}">
+    <meta name="twitter:title" content="{{meta.title}}">
+    <meta name="twitter:description" content="{{meta.description}}">
+    <meta name="twitter:image" content="{{meta.image}}" />
+    <meta name="twitter:site" content="{{meta.site}}">
+    <meta name="twitter:creator" content="{{meta.creator}}">
+    <!-- assets -->
+    {% include css.html %}
+</head>

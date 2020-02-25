@@ -1,0 +1,31 @@
+name: 
+description: 
+plugins:
+baseurl: ""
+markdown: kramdown
+permalink: /:categories/:title.html
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  startings: [head, body]
+exclude:
+  - package.json
+  - node_modules
+  - helper
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+collections:
+  pages:
+    output: true
+    permalink: :path.html

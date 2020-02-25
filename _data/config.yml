@@ -1,0 +1,20 @@
+name: Nimble Check-in
+slogan: 
+title: 
+description: 
+url: 
+images:
+fb_app_id: 
+fb_admins: 
+fb_page: 
+youtube_channel: 
+phone:
+address: 
+
+assets:
+  css:
+    - css/bootstrap.css
+    - css/fontawesome.css
+    - css/site.css
+  js:
+    # - js/site.js

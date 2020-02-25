@@ -7,3 +7,8 @@ npm-debug.log
 .idea/
 node_modules/
 yarn-error.log
+
+helper/vendor/
+
+_site/
+.jekyll-metadata
