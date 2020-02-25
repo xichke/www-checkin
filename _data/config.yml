@@ -18,4 +18,5 @@ assets:
     - css/site.css
   js:
     - js/jquery.js
+    - js/particles.js
     - js/site.js
