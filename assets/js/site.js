@@ -119,4 +119,9 @@ $(function() {
 			console.log('callback - particles.js config loaded');
 		});
 	}
+
+	$('#btnCheckin').click(function() {
+		$('#register').slideDown('slow');
+		$('#btnCheckin').html('Continue check in');
+	});
 });

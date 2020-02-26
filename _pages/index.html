@@ -7,11 +7,27 @@ title: Fancy Check-in
         <div class="wrap-login">
             <form class="login-form">
                 <div class="wrap-input">
-                    <input class="input" type="number" pattern="\d*"placeholder="Please enter your phone number">
+                    <input class="input" type="number" pattern="\d*" placeholder="Please enter your phone number">
                     <span class="focus-input" data-placeholder="&#xf2be;"></span>
                 </div>
+                <section id="register" class="toshow">
+                    <p>Welcome, you're almost done! </p>
+                    <p> Please take a minute to enter your information so we can serve you better next time.</p>
+                    <div class="wrap-input">
+                        <input class="input" type="text" placeholder="Name">
+                        <span class="focus-input" data-placeholder="&#xf206;"></span>
+                    </div>
+                    <div class="wrap-input">
+                        <input class="input" type="text" placeholder="Email (optional)">
+                        <span class="focus-input" data-placeholder="&#xf15a;"></span>
+                    </div>
+                    <div class="wrap-input">
+                        <input class="input" type="text" placeholder="Birthday (optional)">
+                        <span class="focus-input" data-placeholder="&#xf122;"></span>
+                    </div>
+                </section>
                 <div class="container-login-form-btn">
-                    <button type="button" class="login-form-btn">
+                    <button id="btnCheckin" type="button" class="login-form-btn">
                         Check-in
                     </button>
                 </div>
