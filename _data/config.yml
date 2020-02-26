@@ -1,4 +1,4 @@
-name: Nimble Check-in
+name: Fancy Check-in
 slogan: 
 title: 
 description: 
@@ -14,7 +14,7 @@ address:
 assets:
   css:
     - css/bootstrap.css
-    - css/fontawesome.css
+    # - css/fontawesome.css
     - css/material-design-iconic-font.css
     - css/login.css
     - css/site.css

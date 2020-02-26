@@ -1,6 +1,6 @@
 $(function() {
-	if ($('#particles-js').length) {
-		particlesJS('particles-js', {
+	if ($('#particles').length) {
+		particlesJS('particles', {
 			"particles": {
 				"number": {
 					"value": 80,
