@@ -2,4 +2,4 @@
 * `bundle exec jekyll serve`
 
 
-<img data-src="..." class="lazyload" />
+In order to run in fullscreen mode on ipad, please save it as home screen shortcut
