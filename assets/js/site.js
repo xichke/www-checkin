@@ -124,4 +124,23 @@ $(function() {
 		$('#register').slideDown('slow');
 		$('#btnCheckin').html('Continue check in');
 	});
+
+	//checkin page
+	if ($('.page-login').length) {
+		let Keyboard = window.SimpleKeyboard.default;
+		let keyboard = new Keyboard({
+			maxLength: 10,
+			onChange: function(input) {
+				var mask = ['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
+				input = vanillaTextMask.conformToMask(input, mask).conformedValue;
+				document.querySelector('#output').value = input;
+				console.log("Input changed", input);
+			},
+			onKeyPress: function(e) {},
+			layout: {
+				default: ["1 2 3", "4 5 6", "7 8 9", " 0 {bksp}"]
+			},
+			theme: "hg-theme-default hg-layout-numeric numeric-theme"
+		});
+	}
 });

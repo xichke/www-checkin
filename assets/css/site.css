@@ -188,6 +188,7 @@ button:hover {
 	height: 45px;
 	background: transparent;
 	padding: 0 5px 0 38px;
+	font-size: 38px;
 }
 
 /*---------------------------------------------*/
@@ -325,4 +326,33 @@ button:hover {
 	background: #34bf49;
 	opacity: .4;
 	position: absolute;
+}
+
+/* Keyboard */
+.hg-theme-default {
+	background-color: transparent !important;
+}
+
+.hg-theme-default .hg-button {
+	background-color: transparent !important;
+	border: 1px solid #fff;
+	font-size: 38px;
+}
+
+.numeric-theme {
+	max-width: 330px;
+	margin: 0 auto;
+}
+
+.numeric-theme + .simple-keyboard-preview {
+	max-width: 330px;
+}
+
+.simple-keyboard.hg-theme-default.numeric-theme
+.hg-button.hg-standardBtn.hg-button-at {
+	max-width: none;
+}
+
+.simple-keyboard > div:nth-child(4) > div:nth-child(1) {
+	visibility: hidden !important;
 }
