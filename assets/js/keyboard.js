@@ -123,7 +123,7 @@
 					return {
 						"{bksp}": "\u232b",
 						"{backspace}": "\u232b",
-						"{enter}": "< enter",
+						"{enter}": "↵",
 						"{shift}": "shift",
 						"{shiftleft}": "shift",
 						"{shiftright}": "shift",
@@ -167,7 +167,7 @@
 						"{numpadmultiply}": "*",
 						"{numpadsubtract}": "-",
 						"{numpadadd}": "+",
-						"{numpadenter}": "enter",
+						"{numpadenter}": "↵",
 						"{period}": ".",
 						"{numpaddecimal}": ".",
 						"{numpad0}": "0",
